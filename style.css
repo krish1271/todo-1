@@ -6,7 +6,7 @@ body {
     align-items: center;
 }
 .container {
-    width: 30%;
+    width: 45vw;
     margin: 20px auto;
     border: none;
     padding: 10px;
@@ -74,4 +74,13 @@ h3{
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 10px;
+}
+
+
+@media screen and (max-width:600px){
+    .container{
+        width: 400px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
